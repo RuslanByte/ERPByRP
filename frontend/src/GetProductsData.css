@@ -1,0 +1,16 @@
+.dataProductsStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 1.3vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    background-color: #1a11cb91;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #e1e3e6;
+}
+.dataProductsStyleT:nth-child(even){
+    background-color: #0e59ca5e;
+}

@@ -1,0 +1,52 @@
+
+.leaflet-control-attribution {
+    display: none; /* Скрыть атрибуцию */
+}
+
+.done{
+    background-color: rgb(0, 211, 0);   
+}
+.done:hover{
+    background-color: rgb(0, 255, 0);   
+}
+.done:active{
+    background-color: rgb(0, 165, 0);   
+}
+
+
+.inWork{
+    background-color: rgb(211, 211, 0);   
+}
+.inWork:hover{
+    background-color: rgb(255, 255, 0);   
+}
+.inWork:active{
+    background-color: rgb(165, 165, 0);   
+}
+
+.decline{
+    background-color: rgb(211, 0, 0);   
+}
+.decline:hover{
+    background-color: rgb(255, 0, 0);   
+}
+.decline:active{
+    background-color: rgb(165, 0, 0);   
+}
+
+.transferred{
+    background-color: rgb(0, 211, 211);  
+}
+.transferred:hover{
+    background-color: rgb(0, 255, 255);  
+}
+.transferred:active{
+    background-color: rgb(0, 165, 165);  
+}
+
+.telephone{
+    color: black;
+}
+.telephone:hover{
+    color: rgb(255, 0, 0);
+}

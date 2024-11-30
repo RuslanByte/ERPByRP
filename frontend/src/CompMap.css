@@ -1,0 +1,144 @@
+.overlay-text{
+    position: fixed; 
+    top: 100px;  
+    left: 5px; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    border-radius: 5px; 
+    z-index: 1000; 
+}
+
+.dataCliantsStyleOnMap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 1.3vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    background-color: #1a11cb91;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #e1e3e6;
+}
+.dataCliantsStyleOnMapT:nth-child(even){
+    background-color: #0e59ca5e;
+}
+
+
+
+
+.sidePanelHideDisable{
+    transform: translateX(0%);
+}
+
+.sidePanelHideEnable{
+    transform: translateX(-90%);
+}
+
+.buttonHideDisable{
+    position: absolute;   
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+    cursor: pointer;
+    transform: translateX(430%) translateY(460%);
+    background-color: #1a11cb;
+    background-image: url(icon/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+.buttonHideDisable:hover{
+    background-color: #0d00ff;
+}
+.buttonHideDisable:active{
+    background-color: #070083;
+}
+
+.buttonHideEnable{
+    position: absolute;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+    cursor: pointer;
+    transform: translateX(480%) translateY(460%);
+    background-color: #1a11cb;
+    background-image: url(icon/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center; 
+}
+.buttonHideEnable:hover{
+    background-color: #0d00ff;
+}
+.buttonHideEnable:active{
+    background-color: #070083;
+}
+
+
+
+.adressSidePanelHideDisable{
+    transform: translateX(0%);
+}
+
+.adressSidePanelHideEnable{
+    transform: translateX(-60%);
+}
+
+.adressButtonHideDisable{
+    position: absolute;   
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+    cursor: pointer;
+    transform: translateX(415%) translateY(-35%);
+    background-color: #1a11cb;
+    background-image: url(icon/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+}
+.adressButtonHideDisable:hover{
+    background-color: #0d00ff;
+}
+.adressButtonHideDisable:active{
+    background-color: #070083;
+}
+
+.adressButtonHideEnable{
+    position: absolute;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+    cursor: pointer;
+    transform: translateX(630%) translateY(-35%);
+    background-color: #1a11cb;
+    background-image: url(icon/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center; 
+}
+.adressButtonHideEnable:hover{
+    background-color: #0d00ff;
+}
+.adressButtonHideEnable:active{
+    background-color: #070083;
+}
+
+
+
+
+.sidePanelInfoText{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}

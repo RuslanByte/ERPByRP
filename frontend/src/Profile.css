@@ -1,0 +1,101 @@
+.Profile{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.UserNameInfo{
+    margin-top: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 0.3vh;
+    padding-left: 1.3vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    font-size:18px;
+    background-color: #1a11cb91;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #e1e3e6;
+}
+.ProfileInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    
+}
+
+.SubProfileInfo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid rgba(189, 189, 189, 0.788);
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.ProfileInfoLeft{
+    margin-left: 33%;
+    text-align: center;
+}
+
+.ProfileInfo-1 {
+    margin-left: 10%;
+    text-align: center;
+}
+
+.ProfileInfo-2 {
+    margin-left: 9.3%;
+    text-align: center;
+}
+
+.ProfileInfo-3 {
+    margin-left: 4.3%;
+    text-align: center;
+}
+
+.ProfileInfo-4 {
+    margin-left: 8.3%;
+    text-align: center;
+}
+
+.ProfileInfo-5 {
+    margin-left: 11%;
+    text-align: center;
+}
+
+.ProfileInfo-6 {
+    margin-left: 8.3%;
+    text-align: center;
+}
+
+.ProfileInfo-7 {
+    margin-left: 10.1%;
+    text-align: center;
+}
+
+.ProfileInfo-8 {
+    margin-left: 8.4%;
+    text-align: center;
+}
+
+.ProfileInfo-9 {
+    margin-left: 5.4%;
+    text-align: center;
+}
+
+.ProfileInfo-10 {
+    margin-left: 6.2%;
+    text-align: center;
+}
+
+.ProfileInfo-11 {
+    margin-left: 3.2%;
+    text-align: center;
+}
+
+.ProfileInfo-12 {
+    margin-left: 4.6%;
+    text-align: center;
+}

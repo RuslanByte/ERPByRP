@@ -1,0 +1,85 @@
+.gnavL{
+    width: 200px;
+    height: 1000px;
+    background-color: #1a11cb91;
+    display: flex;
+    flex-direction: column;
+    flex: 15%;
+    
+}
+.gnavLHid{
+    display: none;
+}
+
+.comName{
+    color: rgb(215, 215, 215);
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 15px;
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход */
+    cursor: pointer; /* Указываем, что элемент кликабельный */
+}
+.comName:hover{
+    background-color: rgba(0, 0, 0, 0.1); /* Подсветка при наведении */
+    color: #007BFF; /* Цвет текста при наведении */
+}
+
+.comName:active{
+    background-color: rgba(0, 0, 0, 0.2); /* Подсветка при нажатии */
+    color: #0056b3; /* Цвет текста при нажатии */
+}
+
+.nav{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: medium;
+}
+
+.navli{
+    margin-top: 40px;
+    cursor: pointer; /* Указываем, что элемент кликабельный */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход */
+}
+
+.navli:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Подсветка при наведении */
+    color: #007BFF; /* Цвет текста при наведении */
+}
+
+.navli:active {
+    background-color: rgba(0, 0, 0, 0.2); /* Подсветка при нажатии */
+    color: #0056b3; /* Цвет текста при нажатии */
+}
+
+.navliE{
+    margin-top: 40px;
+    cursor: pointer; /* Указываем, что элемент кликабельный */
+    color: red; /* Цвет текста для выхода */
+}
+
+.navliE:hover{
+    color: #ffffff;
+    text-decoration: underline; /* Подчёркивание при наведении */
+}
+
+.navliE:active{
+    color:  #bfbfbf;
+}
+
+
+a{
+    text-decoration: none;
+    color: #bfbfbf;
+}
+a:hover{
+    color: #ffffff;
+
+}
+a:active{
+    text-decoration: none;
+    color:  #bfbfbf;
+}
