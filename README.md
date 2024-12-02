@@ -6,8 +6,10 @@ This system (RESTful API) facilitates the management of suppliers, employees, cu
 The system features a global map displaying orders: Employee-level users see only their own orders, while Admin and Manager users have access to all orders. It also includes advanced order statistics within specific time intervals, either for all employees or a particular employee, with detailed statuses for each order. Additionally, the system offers financial reporting for the company or individual employees, showing cash and non-cash payment amounts, company revenue, net profit, and employee salaries.
 
 ## ERP System User Interface
-![ERP System Screenshot](ERPSystemScreenshot.png)
-
+![ERP System Screenshot](ERPSystemScreenshotClients.png)
+![ERP System Screenshot](ERPSystemScreenshotMap.png)
+![ERP System Screenshot](ERPSystemScreenshotStatisticsOrders.png)
+![ERP System Screenshot](ERPSystemScreenshotStatisticsIncome.png)
 ## Front-End
 - Reactjs
 - Leaflet
